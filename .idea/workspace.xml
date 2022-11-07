@@ -4,122 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="478a2bf6-e7db-4de8-91de-21d6555c6ed3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day01variables/Variables01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day02methodcreation/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day02methodcreation/MemoryKullanimi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day02methodcreation/MethodCreation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day03typecastingwrapperscanner/Scanner01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day03typecastingwrapperscanner/Scanner02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day03typecastingwrapperscanner/Scanner03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day03typecastingwrapperscanner/TypeCasting01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day03typecastingwrapperscanner/WrapperClass01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day04ifstatement/IfStatement01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day04ifstatement/Scanner01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day04ifstatement/Scanner02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day05ifstatement/IfStatement01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day05ifstatement/IfStatement02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day05ifstatement/IfStatement03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day06nestedifswitch/IfStatement01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day06nestedifswitch/NestedIf01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day06nestedifswitch/Switch01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day06nestedifswitch/Switch02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day06nestedifswitch/Switch03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day07ternarystringmanipulation/NestedTernary01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day07ternarystringmanipulation/StringManipulations01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day07ternarystringmanipulation/Ternary01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day08stringmanipulations/StringManipulations02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day08stringmanipulations/StringManupulations01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day09stringmanipulations/StringManipulations01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day10stringmanipulations/ForLoop01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day10stringmanipulations/StringManipulations01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day11loops/ForLoop01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day11loops/ForLoop02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day11loops/NestedLoop01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day12loops/DoWhileLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day12loops/NestedForLoop01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day12loops/WhileLoops01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day13loopsarrays/Arrays01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day13loopsarrays/DoWhieleLoop01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day14arraysforeachloop/Arrays01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day14arraysforeachloop/Arrays02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day15arraysmultidimensionalarrays/Arrays01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day15arraysmultidimensionalarrays/Arrays02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day15arraysmultidimensionalarrays/Arrays03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day15arraysmultidimensionalarrays/MultiDimensionalArrays01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day15arraysmultidimensionalarrays/MultiDimensionalArrays02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day16multidimensionalarraysarraylists/ArrayLists01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day16multidimensionalarraysarraylists/MultiDimensionalArray01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day16multidimensionalarraysarraylists/MultiDimensionalArray02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day17arraylists/ArrayLists01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day17arraylists/ArrayLists02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day17arraylists/ArrayLists03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day18arraylistspassbyvalue/ArrayLists01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day18arraylistspassbyvalue/MethodOverloading01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day18arraylistspassbyvalue/PassByValue01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day18arraylistspassbyvalue/PostPreIncrementDecrement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day18arraylistspassbyvalue/Varargs01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day19datetime/Countries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day19datetime/DateTime01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day19datetime/DateTime02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day19datetime/DateTime03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day20stringbuilderstringbuffer/DayTime01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day20stringbuilderstringbuffer/StringBuffer01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day20stringbuilderstringbuffer/StringBuilder01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day21accessmodifeiersinheritance/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day21accessmodifeiersinheritance/AnimalRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day21accessmodifeiersinheritance/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day21accessmodifeiersinheritance/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day21accessmodifeiersinheritance/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day21accessmodifeiersinheritance/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day21accessmodifeiersinheritance/StudentRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day22inheritancepolymorphism/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day22inheritancepolymorphism/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day22inheritancepolymorphism/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day22inheritancepolymorphism/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day22inheritancepolymorphism/CatRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day22inheritancepolymorphism/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day22inheritancepolymorphism/Honda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day22inheritancepolymorphism/HondaAccord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day22inheritancepolymorphism/Mammal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day22inheritancepolymorphism/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day22inheritancepolymorphism/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day22inheritancepolymorphism/VehicleRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day23inheritancepolymorphism/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day23inheritancepolymorphism/AnimalRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day23inheritancepolymorphism/Art.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day23inheritancepolymorphism/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day23inheritancepolymorphism/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day23inheritancepolymorphism/CourseRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day23inheritancepolymorphism/Courses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day23inheritancepolymorphism/Mammal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day23inheritancepolymorphism/Math.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day23inheritancepolymorphism/Science.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day24statickeywordencapsulation/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day24statickeywordencapsulation/CarRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day24statickeywordencapsulation/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day24statickeywordencapsulation/StudentRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day25exceptions/Exceptions01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day25exceptions/Exceptions02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day25exceptions/Exceptions03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day26exceptions/Exceptions01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day26exceptions/Exceptions02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day26exceptions/Exceptions03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day26exceptions/Exceptions04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day27exceptions/Exceptions01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day27exceptions/Exceptions02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day27exceptions/Exceptions03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day27exceptions/File1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day27exceptions/IllegalGradeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day27exceptions/IllegalNameException.java" afterDir="false" />
+    <list default="true" id="478a2bf6-e7db-4de8-91de-21d6555c6ed3" name="Changes" comment="Commit.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,6 +92,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667752204983</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit.">
+      <created>1667770329728</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667770329728</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,5 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit." />
   </component>
 </project>
