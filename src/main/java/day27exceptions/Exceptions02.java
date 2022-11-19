@@ -7,13 +7,20 @@ import java.io.IOException;
 public class Exceptions02 {
     /*
         1) FileInputStream fis = new FileInputStream("src/main/java/day27exceptions/File1.txt");
-           "new" den sonraki "FileInputStream" hata verir. Cunku; biz Java'ya verilen adresteki dosya' ya git dedik, Java
-           iki endise'ye kapildi i)Ya adres yanlissa   ii)Ya verilen adreste dosya yoksa.
+
+           "new" den sonraki "FileInputStream" hata verir. Cunku; biz Java'ya verilen adresteki dosya' ya git dedik, Java iki endise'ye kapildi
+
+           i)Ya adres yanlissa
+           ii)Ya verilen adreste dosya yoksa.
+
            Biz "method isminden" sonra, "throws FileNotFoundException" yazarak, Java'ya bu iki endise duydugun durum
            olusursa "Exception At" dedik.
 
         2) while((k = fis.read()) != -1){} yazdigimizda "read()" method'u hata verir. Cunku biz Java'ya dosya'daki
-          karakterleri oku dedik. Java bir endiseye kapildi i)Ya okumasi gereken karakterler Java'nin bilmedigi karakterlerse.
+          karakterleri oku dedik. Java bir endiseye kapildi
+
+          i)Ya okumasi gereken karakterler Java'nin bilmedigi karakterlerse.
+
           Biz method isminden sonra "throws IOException" yazarak, Java'ya bu durumla karsilastiginda "Exception At" dedik.
 
         3) Method isminden sonra "throws IOException" yazarsaniz Java "throws FilNotFoundException" i siler. Cunku;
@@ -29,35 +36,54 @@ public class Exceptions02 {
      */
 
     public static void main(String[] args) throws IOException {
-        readTheTextFromTheFile();
 
-        readTheText();
+        readTheTextFromTheFile();       // Dosya dan yazi okumak icin method olusturduk..
+
+        readTheText();                  // Ikinci bir okuma metodu yazdik.
+
     }
 
-    //Bir text file'daki text'i okuyan kodu yaziniz.
+    //  Example: Bir text file'daki text'i okuyan kodu yaziniz. !!! Bu SIKLIKLA kullanilan bir CODE dur.
+
     //1.Way:
+
     public static void readTheTextFromTheFile() throws IOException {
+
         FileInputStream fis = new FileInputStream("src/main/java/day27exceptions/File1.txt");
+
         int k = 0;
+
         while((k = fis.read()) != -1){
+
             System.out.print((char)k);
+
         }
     }
 
     //2.Way:
+
     public static void readTheText() {
+
         try {
+
             FileInputStream fis = new FileInputStream("src/main/java/day27exceptions/File1.txt");
 
             int k = 0;
-            while((k = fis.read()) != -1){
+
+            while((k = fis.read()) != -1){      // Bu read(); methodu character character okur..
+
                 System.out.print((char)k);
+
             }
 
         } catch (FileNotFoundException e) {
+
             System.out.println("Dosya'nin adresi veya varligi ile ilgili bir problem var.");
+
         } catch (IOException e) {
+
             System.out.println("Dosya'da okunamayan bir character var");
+
         }
     }
 }

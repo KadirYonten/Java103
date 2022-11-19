@@ -32,7 +32,7 @@ public class Cat extends Mammal{
         1)Override yaparken "method'un body" si degistirilir.
         2)Override yaparken ASLA method signature(isim ve parametre) degistirilemez.
         3)Override yaparken "inheritance" olmak zorundadir.
-        4)Override yaparken "access modifier" lar belli kurallara gor farklilastirilabilirler
+        4)Override yaparken "access modifier" lar belli kurallara gore farklilastirilabilirler
             i)"private" method'lar override edilemezler
             ii)Child Class'daki "override edilen" method'un access modifier'i Parent class'daki
                method'un access modifier'i ile ayni veya daha genis olmalidir.

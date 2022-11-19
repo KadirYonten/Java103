@@ -15,55 +15,65 @@ public class Exceptions01 {
 
     }
 
-    //Verilen iki String'den birinin karakter sayisinin digerinin kac kati oldugunu veren method olusturunuz
+    // Example: Verilen iki String'den birinin karakter sayisinin, digerinin kac kati oldugunu veren method olusturunuz.
+
     public static double compareNumOfCharacters(String s, String t){
+
         double result = 0;
+
         try {
+
             result = s.length() / t.length();
+
         }catch(NullPointerException e){
+
             System.out.println("length() method'u null ile kullanilamaz");
+
         }catch(ArithmeticException e){
+
             System.out.println("Herhangi bir sayi sifir ile bolunemez");
+
         }finally{
+
             System.out.println("Database ile connection kesildi");
+
         }
 
         return result;
+
     }
 
     /*
 
-    "final", "finally", "finalize" aciklayiniz.
+    NOTE: "final", "finally", "finalize" aciklayiniz.
 
-    1)"final" bir keyword'dur. Variable, Class, ve Method'lar icin kullanilir. .
+   *** 1) "final" bir keyword'dur. Variable, Class, ve Method'lar icin kullanilir. .
 
-    *) "final" keyword nedir? "final" keyword
+                    *) "final" -->  keyword  nedir? "final" keyword
 
     i)Variable'larda kullanilabilir.  public final int age = 12;
-                        a)Atanan deger degistirilemez.
-                        b)Deger atamasi yapilmak zorundadir.
+                                            a)Atanan deger degistirilemez.
+                                            b)Deger atamasi yapilmak zorundadir.
 
-    ii)Method'larda kullanilabilir.
-                       public final int add(){
-                       return a+b;
-                   }
+    ii)Method'larda kullanilabilir.         public final int add() {
+                                            return a+b; }
 
-   a)Bir method olusturulurken "final" olarak olusturulmus ise o methodun body'si asla degistirilemez.
+   a)   Bir method olusturulurken "final" olarak olusturulmus ise o methodun body'si asla degistirilemez.
         Dolayisiyla o method override edilemez.
 
    iii)Class'larda kullanilabilir.
-                       Bir Class'i "final" yaparsaniz o Class'i kisirlastirmis olursunuz
-                       Bir Class "final" ise o Class'a extend edilemez.
-                       "final" Class Child olabilir.
+        Bir Class'i "final" yaparsaniz o Class'i kisirlastirmis olursunuz.
+        Bir Class "final" ise o Class 'a extent edilemez.!!  Child Class lar final olabilir.
 
-    2)"finally" bir "code block" dur.
+   *** 2) "finally" bir "code block" dur.
+
           "try-catch" veya sadece "try" ile kullanilir.
           "finally" code block icine yazilan code'lar her halukarda calistirilir.
           Mesela Database ile connection'i kesmek herhalukarda yapilmasi gereken bir fiildir. Bunu "finally" ile yapabiliriz.
 
-   3)"finalize" bir method'dur. Bu method Java tarafindan data'lar imha edilmeden once cagrilir, bu method data'lari
+   *** 3) "finalize" bir method'dur. Bu method Java tarafindan data'lar imha edilmeden once cagrilir, bu method data'lari
           imha edilecek hale getirir ve daha sonra "Garbage Collector" bu data'lari imha eder.
 
-          "finalize" method'unu Java Developer'lar da cagirabilir ama Java kendi bildigini yapar.
+          "finalize" method 'unu Java Developer 'lar da cagirabilir ama Java kendi bildigini yapar.
      */
 }
