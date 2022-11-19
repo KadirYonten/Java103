@@ -4,49 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="478a2bf6-e7db-4de8-91de-21d6555c6ed3" name="Changes" comment="Commit.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day17arraylists/day28abstraction/Ac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day17arraylists/day28abstraction/Accord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day17arraylists/day28abstraction/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day17arraylists/day28abstraction/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day17arraylists/day28abstraction/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day17arraylists/day28abstraction/Civic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day17arraylists/day28abstraction/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day17arraylists/day28abstraction/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day17arraylists/day28abstraction/Hood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day17arraylists/day28abstraction/Mammal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day17arraylists/day28abstraction/ReadFileLineByLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day29abstractioncollections/Ac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day29abstractioncollections/Civic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day29abstractioncollections/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day29abstractioncollections/LinkedList01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day29abstractioncollections/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day29abstractioncollections/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day30collections/Deque01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day30collections/HashSet01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day30collections/LinkedHashSet01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day30collections/LinkedList01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day30collections/PriorityQueue01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day30collections/Queue01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day30collections/TreeSet01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day31maps/HashMap01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day31maps/HashMap02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day32maps/HashTable01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day32maps/Iterators01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day32maps/Maps01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day32maps/Maps02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day32maps/StaticBlocks01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day32maps/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day32maps/TreeMap01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day23inheritancepolymorphism/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day23inheritancepolymorphism/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day27exceptions/Exceptions01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day27exceptions/Exceptions01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day27exceptions/Exceptions02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day27exceptions/Exceptions02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day27exceptions/Exceptions03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day27exceptions/Exceptions03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day27exceptions/IllegalGradeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day27exceptions/IllegalGradeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day27exceptions/IllegalNameException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day27exceptions/IllegalNameException.java" afterDir="false" />
-    </list>
+    <list default="true" id="478a2bf6-e7db-4de8-91de-21d6555c6ed3" name="Changes" comment="Commit.19.11.22" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667770329728</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit.19.11.22">
+      <created>1668858592612</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668858592612</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,7 +123,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit." />
+    <MESSAGE value="Commit.19.11.22" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit.19.11.22" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
