@@ -6,14 +6,14 @@ import java.util.Map;
 import java.util.Set;
 
 /*
-        1)Map'ler key-value structure kullanir
-        2)Key'ler unique'dir
+        1)Map'ler key-value structure kullanir.   key = valeu  yapisi..
+        2)Key'ler unique'dir.                     Bu düzen bir sözlük gibi düsünülebilir.
         3)Value'lar tekrarli data icerebilir
-        4)Map'lerde eleman degil EntrySet kullaniriz.
-        5)Key'ler de null tekrarsiz olarak kullanilir
+        4)Map'lerde eleman degil EntrySet kullaniriz.  key = value --> EntrySet
+        5)Key'ler de null tekrarsiz olarak kullanilir.
         6)Value'lar null kabul eder.
-        7)HashMap'ler EntrySet'leri herhangibir siralamaya tabi tutmaz, rastgele siralar
-        8)Siralama ile vakit kaybetmedigi icin HashMap'ler coook hizli calisirlar.  Super fast
+        7)HashMap'ler EntrySet'leri herhangibir siralamaya tabi tutmaz, rastgele siralar.
+        8)Siralama ile vakit kaybetmedigi icin HashMap'ler coook hizli calisirlar.          Super fast!!!
      */
 public class HashMap01 {
 
@@ -25,7 +25,7 @@ public class HashMap01 {
         studentAges.put("Brad", 12);
         studentAges.put("Ajda", 76);
         studentAges.put("Cuneyt", 75);
-        studentAges.put("Ali", 88);//Ayni key degerini tekrar kullandiginizda hata vermez "overwrite" yapar
+        studentAges.put("Ali", 88);//Ayni key degerini tekrar kullandiginizda hata vermez "overwrite" yapar! üzerine yazar!
         studentAges.put(null, 55);
         studentAges.put(null, 66);
         studentAges.put("Ayhan Isik", null);
@@ -34,7 +34,7 @@ public class HashMap01 {
 
         //Map'den sadece key'ler nasil alinir?  keySet() ile sadece keyleri alabiliriz.
         Set<String> keys = studentAges.keySet();
-        System.out.println(keys);//[null, Ayhan Isik, Sadri Alisik, Tom, Ajda, Brad, Cuneyt, Ali]
+        System.out.println(keys); // [null, Ayhan Isik, Sadri Alisik, Tom, Ajda, Brad, Cuneyt, Ali]
 
         //Map'den sadece value'lar nasil alinir?    values() ile sadece values kullaniriz.
         Collection<Integer> values = studentAges.values();

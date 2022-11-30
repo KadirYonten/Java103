@@ -25,8 +25,10 @@ public class HashTable01 {
         countryPopulations.put("Turkey", 90000000);
         System.out.println(countryPopulations);// {USA=400000000, Germany=83000000, Turkey=90000000}
 
-        //countryPopulations.put(null, 90000000);// HashTable'larda key null olamaz. NullPointerException
-        //countryPopulations.put("France", null);// HashTable'larda value null olamaz. NullPointerException
+        /*
+         countryPopulations.put(null, 90000000);// HashTable'larda key null olamaz. NullPointerException
+         countryPopulations.put("France", null);// HashTable'larda value null olamaz. NullPointerException
+        */
 
         Hashtable<String, Students> myStudents = new Hashtable<>();
         myStudents.put("Math", new Students("Tom Hanks", "th@gmail.com", 21, true));

@@ -26,7 +26,7 @@ public class Iterators01 {
 
         while (itr.hasNext()){  //hasNext(); --> senden sonra elemen var mi?
 
-            String el = itr.next();  // next(); --> üstünden atladigi elemanii bize verir ve pointeri bur ileri iter..
+            String el = itr.next();  // next(); --> üstünden atladigi elemanii bize verir ve pointeri bir ileri iter..
 
             itr.set(el+"!");
         }
